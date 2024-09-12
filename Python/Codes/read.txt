@@ -1,0 +1,5 @@
+In Python you can assign a string, an Integer, a float, etc to a variable
+In Python Strings are the group that are meant to be said for user
+In Python, we have if statements, if a condition is true then if statement will be interpreted but if it is flase then the else value will be executed
+In Python Tuple are immutable data structures means once created they can't be changed
+
