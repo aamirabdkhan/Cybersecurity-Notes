@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/10 - Filesystem and Storage Device Management.md",
+                "file": "Linux/1 - Getting Started with the Basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/10 - Filesystem and Storage Device Management.md",
+                "file": "Linux/1 - Getting Started with the Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/10 - Filesystem and Storage Device Management.md",
+                "file": "Linux/1 - Getting Started with the Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/10 - Filesystem and Storage Device Management.md"
+                "file": "Linux/1 - Getting Started with the Basics.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "490b5ca6a2b390dc",
   "lastOpenFiles": [
-    "Linux/Linux.md",
     "Linux/10 - Filesystem and Storage Device Management.md",
+    "Linux/Linux.md",
     "Linux/9 - Compressing and Archiving.md",
     "Linux/8 - Bash Scripting.md",
     "Attachments/Pasted image 20240909113830.png",

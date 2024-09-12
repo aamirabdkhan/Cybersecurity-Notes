@@ -1,4 +1,4 @@
-ab# The Linux Filesystem
+# The Linux Filesystem
 **/root** --> Home directory of the all-powerful root users
 **/etc** --> Generally contains Linux Configuration files -- Files that control when and how the program start up
 **/home** --> User's home directory
