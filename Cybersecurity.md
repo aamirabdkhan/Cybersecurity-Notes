@@ -1,0 +1,3 @@
+# Fundamentals
+[[Linux]]
+[[Python]]
