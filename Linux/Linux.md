@@ -8,4 +8,5 @@
 [[8 - Bash Scripting]] 
 [[9 - Compressing and Archiving]] 
 [[10 - Filesystem and Storage Device Management]] 
+[[11 - The Logging System]] 
 [[16 - Automating tasks with Job Scheduling]]
