@@ -148,6 +148,6 @@ Syntax: `shred -f -n 10 <file>`
 `service servicename start|stop|restart`
 
 - To stop the logging daemon, following command can be used:
-`kali >service rsyslog stop`
+`service rsyslog stop`
 
 - Now Linux will stop generating any log files until the service is restarted, enabling you to operate without leaving behind any evidence in the log files.

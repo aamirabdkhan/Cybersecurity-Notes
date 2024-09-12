@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/11 - The Logging System.md",
+                "file": "Linux/12 - Using and Abusing Services.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/11 - The Logging System.md",
+                "file": "Linux/12 - Using and Abusing Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/11 - The Logging System.md",
+                "file": "Linux/12 - Using and Abusing Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/11 - The Logging System.md"
+                "file": "Linux/12 - Using and Abusing Services.md"
               }
             }
           },
@@ -159,6 +159,10 @@
   },
   "active": "fc4d536426a35944",
   "lastOpenFiles": [
+    "Linux/Linux.md",
+    "Linux/12 - Using and Abusing Services.md",
+    "Attachments/Pasted image 20240912212301.png",
+    "Linux/11 - The Logging System.md",
     "Python/Codes/write.txt",
     "Python/Codes/username.json",
     "Python/Codes/read.txt",
@@ -169,10 +173,7 @@
     "Python/Codes/29_storing_data.py",
     "Python/Codes/28_exceptions.py",
     "Python/Codes/27_writing_file.py",
-    "Python/Codes/26_reading_file.py",
     "Linux/8 - Bash Scripting.md",
-    "Linux/11 - The Logging System.md",
-    "Linux/Linux.md",
     "Cybersecurity.md",
     "Linux/10 - Filesystem and Storage Device Management.md",
     "Linux/16 - Automating tasks with Job Scheduling.md",
@@ -190,7 +191,6 @@
     "Attachments/Pasted image 20240909113530.png",
     "Linux/6 - Process Management.md",
     "Linux/7 - Managing user Environment Variables.md",
-    "Attachments/Pasted image 20240831013038.png",
     "Linux/5 - Controlling file and directory permissions.md",
     "Linux/4 - Adding and removing Software.md",
     "Python/Object Oriented Programming.md",

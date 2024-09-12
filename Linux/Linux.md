@@ -9,4 +9,5 @@
 [[9 - Compressing and Archiving]] 
 [[10 - Filesystem and Storage Device Management]] 
 [[11 - The Logging System]] 
+[[12 - Using and Abusing Services]] 
 [[16 - Automating tasks with Job Scheduling]]
