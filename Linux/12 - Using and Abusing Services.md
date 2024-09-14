@@ -111,3 +111,139 @@ raspistill -v -o firstpicture.jpg
 - `-v` --> gives us verbose output
 - `-o` --> option to tell `raspistill` we're about to give it a filename to use
 - Then we give it the filename
+
+# Extracting information from MySQL
+- **MySQL** --> widely used database behind database-driven web applications
+- Databases contain critical info about users as well as confidential info such as credit card numbers
+- Other popular content managements systems (CMSs) 
+	- Joomla, Drupal, and Ruby on rail all use MySQL.
+## *Starting MySQL*
+Start MySQL
+```
+service mysql start
+```
+Authenticate yourself by logging in: 
+```sql
+mysql -u root -p
+```
+## ***Interacting with MySQL***
+- SQL is interpreted programming language for interfacing with a database.
+- The database is often relational database, meaning data is stored in multiple tables that interact and each table has values in one or more columns or rows
+SQL Commands:
+1. `select` --> Used to retrieve data
+2. `union` --> Used to combine results of two or more select operations
+3. `insert` --> Used to add new data
+4. `update` --> Used to modify existing data
+5. `delete` --> Used to delete data
+Example
+```sql
+select user, password from customers where users='admin';
+```
+- will return the values of user and password fields for any user whose user value is equal to 'admin' in the customers table
+## ***Setting a MySQL password*** 
+Checking users in our MySQL system
+```sql
+select user, host, password from mysql.user;
+```
+- This shows root users have no passwords
+- First select a database
+- To view databases
+```sql
+show databases;
+```
+- By default MySQL comes with 3 databases
+- Two of which `information_schema & performance schema` are administrative databases.
+- the third one, `mysql` is the non-administrative database and we'll use it.
+Using `mysql` database
+```sql
+use mysql;
+```
+- The above command connects us to mysql
+Setting the password
+```sql
+update user set password = PASSWORD("deadboy") where user = 'root';
+```
+## ***Accessing a remote database***
+Access MySQL on localhost
+```sql
+mysql -u <username> -p
+```
+- if a hostname or Ip adress is not given it uses localhost's MySQL instance by default
+Example
+```sql
+mysql -u root -p 192.168.1.101
+```
+This will connect us to the MySQL instance at the given IP address
+## ***Connecting to a Database***
+Snooping the around the system:
+```sql
+show databases;
+```
+We we found a database to use the database:
+```sql
+use <database name>
+```
+The `database changed` response indicates that we are now connected to the selected database
+## ***Database Tables***
+To find out what tables are present in the database:
+```sql
+show tables;
+```
+TO access a given table:
+```sql
+describe <tablename>;
+```
+## Examining the Data
+To actually see the data in the table, we use the `SELECT` command. The `SELECT` command requires us to know the following:
+- The table that holds the data you want to view.
+- The columns within the table that hold the data you want to view.
+SYNTAX:
+```sql
+SELECT columns FROM table
+```
+- to look at the data of all the columns we can use astrerisk *
+EXAMPLE:
+```sql
+SELCT * FROM <tablename>
+```
+# PostgreSQL with Metasploit
+- **PostgreSQL** another open source relational database often used in very large, internet=facing applications due to it's ability to scale easily and handle heavyworkloads 
+Starting PostgreSQL start
+```
+service postgresql start
+```
+Start Metasploit
+```
+msfconsole
+```
+
+Setting up PostgreSQL so that it can store data from any Metasploit activity
+```
+msfdb init
+```
+Login to postgres as root
+```
+su postgres
+```
+Create a user and password:
+```sql
+createuser mds_user -P
+```
+Create database and grant permission for msf_user
+```sql
+createdb --owner=msf_user hackers_arise_db
+```
+```
+exit
+```
+
+We have to connect our Metasploit to own PostgreSQL, definging the following:
+- The user
+- The password
+- The host
+```msf
+db_connect msf_user:password@137.0.0.1/hacker_arise_db
+```
+```msf
+db_status
+```

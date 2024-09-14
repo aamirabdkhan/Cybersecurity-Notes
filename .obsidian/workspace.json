@@ -15,7 +15,7 @@
               "state": {
                 "file": "Linux/12 - Using and Abusing Services.md",
                 "mode": "source",
-                "backlinks": true,
+                "backlinks": false,
                 "source": false
               }
             }
@@ -159,10 +159,11 @@
   },
   "active": "fc4d536426a35944",
   "lastOpenFiles": [
-    "Linux/Linux.md",
-    "Linux/12 - Using and Abusing Services.md",
-    "Attachments/Pasted image 20240912212301.png",
     "Linux/11 - The Logging System.md",
+    "Untitled.canvas",
+    "Linux/12 - Using and Abusing Services.md",
+    "Linux/Linux.md",
+    "Attachments/Pasted image 20240912212301.png",
     "Python/Codes/write.txt",
     "Python/Codes/username.json",
     "Python/Codes/read.txt",
