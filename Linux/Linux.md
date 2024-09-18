@@ -10,4 +10,5 @@
 [[10 - Filesystem and Storage Device Management]] 
 [[11 - The Logging System]] 
 [[12 - Using and Abusing Services]] 
+[[13 - Becoming secure and anonymous]]
 [[16 - Automating tasks with Job Scheduling]]

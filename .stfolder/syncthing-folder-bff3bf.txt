@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: qstnc-39p3r
+created: 2024-09-18T21:54:08+05:30
