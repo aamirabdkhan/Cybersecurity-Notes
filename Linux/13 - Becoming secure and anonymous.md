@@ -1,4 +1,4 @@
-# The Onion Router System
+98# The Onion Router System
 - US Office of Naval Research develop the anonymously navigating the internet system for espionage purposes.
 - The plan was to set up a network of routers that was separate from the internet's router, that could encrypt the traffic, and that only stored the unencrypted IP address of the previous router ---  meaning all other router addresses along the way were encrypted.
 ## *TOR Browser*
@@ -62,5 +62,21 @@ proxychains firefox www.hackersarise.com
 - In `proxychains.conf` comment out the dynamic_chain and strict_chain, then uncomment the random_chain.
 - We can only use one of these three options at a time.
 - Next find the chain_len and uncomment it and then give it a reasonable number. This line determines how many of the IP addresses in your chain will be used in creating your random proxy chain. For example if give it a value of 3 it will use 3 prxoies from the list.
-- Although this enhances anonymitybut it increases the latency of our online activites
+- Although this enhances anonymity but it increases the latency of our online activites
 
+## *Security Concerns*
+- If you are intent to remaining anonymous do not use **free proxies** .
+- Hackers use paid proxies that can be trusted.
+- **Free proxies** are likely selling your IP address and Browsing history
+>[!Quote]+
+>"If something is free, you are not customer, you are the product."
+>~ Bruce Schneier
+
+# Virtual Private Network (VPN)
+- VPN is used to connect to an intermediary internet device such as a router that sends your traffic to it's ultimate destination tagged with the IP address of the router.
+- VPN can enhance security and privacy but it cannot guarantee anonymity .
+- Simple and easy to work with
+
+# Encrypted Email
+- Free email services are use for tracking customer's interest and serving up advertisements.
+- ProtonMail, is the email service which encrypts our email from end to end or browser to browser.
