@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/13 - Becoming secure and anonymous.md",
+                "file": "Linux/14 - Understanding and Inspecting Wireless Networks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -81,35 +81,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1e5d16996351faea",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Linux/13 - Becoming secure and anonymous.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "222a78840a4ffda2",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Linux/13 - Becoming secure and anonymous.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "a367238518d17558",
             "type": "leaf",
             "state": {
@@ -126,28 +97,49 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/13 - Becoming secure and anonymous.md"
+                "file": "Linux/14 - Understanding and Inspecting Wireless Networks.md"
               }
             }
           },
           {
-            "id": "53edf2c51691e8d8",
+            "id": "7b3a816a82b8ce28",
             "type": "leaf",
             "state": {
-              "type": "git-view",
-              "state": {}
+              "type": "backlink",
+              "state": {
+                "file": "Linux/14 - Understanding and Inspecting Wireless Networks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "48f4105e45e2d886",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Linux/14 - Understanding and Inspecting Wireless Networks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 432.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "callout-manager:Insert Callout": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -157,14 +149,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fc4d536426a35944",
+  "active": "e1b8c333f7b70ee1",
   "lastOpenFiles": [
     "Linux/~syncthing~14 - Understanding and Inspecting Wireless Networks.md.tmp",
+    "Linux/13 - Becoming secure and anonymous.md",
     "Linux/14 - Understanding and Inspecting Wireless Networks.md",
     "Python/Object Oriented Programming.md",
     "Tor Key.md",
     "Attachments/Pasted image 20240918230132.png",
-    "Linux/13 - Becoming secure and anonymous.md",
     "Linux/~syncthing~13 - Becoming secure and anonymous.md.tmp",
     "Linux/16 - Automating tasks with Job Scheduling.md",
     "Linux/1 - Getting Started with the Basics.md",
@@ -182,7 +174,6 @@
     "Python/Codes/numbers.json",
     "Python/Codes/alice.txt",
     "Python/Codes/29_storing_data.py",
-    "Python/Codes/28_exceptions.py",
     "Linux/8 - Bash Scripting.md",
     "Cybersecurity.md",
     "Linux/10 - Filesystem and Storage Device Management.md",

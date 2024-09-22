@@ -2,5 +2,7 @@
   "cssTheme": "GitHub Theme",
   "enabledCssSnippets": [
     "app"
-  ]
+  ],
+  "interfaceFontFamily": "",
+  "textFontFamily": ""
 }

@@ -54,3 +54,58 @@ Here, we just see the wireless interfaces, also known as *network cards* and key
 Device 'wlan0' successfully activated with '35d36081-c57d-4070-80f4-496432278978'.
 ```
 ## Wi-Fi Recon with `aircrack-ng`
+#### Step 1: 
+- Putting wireless network card in monitor mode
+- To do so using the `airmon-ng` command from the `aircrack-ng` s
+Syntax:
+`airmon-ng start|stop|restart interface`
+To put wireless network card in monitor mode
+`airmon-ng start wlan0`
+```
+┌──(deadboy㉿kali)-[~]
+└─$ sudo airmon-ng start wlan0
+[sudo] password for deadboy: 
+
+Found 2 processes that could cause trouble.
+Kill them using 'airmon-ng check kill' before putting
+the card in monitor mode, they will interfere by changing channels
+and sometimes putting the interface back in managed mode
+
+    PID Name
+    735 NetworkManager
+    805 wpa_supplicant
+
+PHY     Interface       Driver          Chipset
+
+phy0    wlan0           ath9k           Qualcomm Atheros QCA9565 / AR9565 Wireless Network Adapter (rev 01)
+                (mac80211 monitor mode vif enabled for [phy0]wlan0 on [phy0]wlan0mon)
+                (mac80211 station mode vif disabled for [phy0]wlan0)
+
+                                                                                                     
+┌──(deadboy㉿kali)-[~]
+└─$ iwconfig
+lo        no wireless extensions.
+
+eth0      no wireless extensions.
+
+wlan0mon  IEEE 802.11  Mode:Monitor  Frequency:2.457 GHz  Tx-Power=16 dBm   
+          Retry short limit:7   RTS thr:off   Fragment thr:off
+          Power Management:off
+```
+
+make note of the new assigned name i.e. `wlan0mon`
+
+#### Step 2:
+- Finding key data from wireless traffic
+- `airodump-ng` --> captures and displays teh key data from broadcasting APs and any clients connected to those APs or within the vicinity.
+Syntax
+`airodump-ng interface from airmo-ng`
+
+### Important terms
+
+- **BSSID** --> MAC Address of the AP or client.
+- **PWR** --> The strength of the signal
+- **ENC** --> The encryption used to secure the transmission
+- **#Data** --> The data throughput rate
+- **CH** --> The channel the AP is operating on
+- **ESSID** --> The name of the AP.
